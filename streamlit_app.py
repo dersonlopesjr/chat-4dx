@@ -6,7 +6,7 @@ st.set_page_config(page_title="🔧 Teste de Secrets", page_icon="🔧")
 st.title("🔧 Teste de Chave API")
 
 try:
-    api_key = st.secrets["GROQ_API_KEY = "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”"]
+    api_key = st.secrets["GROQ_API_KEY = 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"]
     st.success("✅ Chave API encontrada!")
     st.write("A chave foi carregada com sucesso.")
 except Exception as e:
